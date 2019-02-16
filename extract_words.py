@@ -40,10 +40,10 @@ for item in freqDict:
 #print string to respective text files
 with open("allWords.txt","w") as allWords:
 	allWords.write(outString)
-with open("uniqueWords.txt","w") as uniqueWords:
-	uniqueWords.write(outString)
+with open("uniqueWords.txt","w") as UniqueWords:
+	UniqueWords.write(uniqueWords)
 with open("wordFrequency.txt","w") as wordFrequency:
-	wordFrequency.write(outString)
+	wordFrequency.write(frequency)
 
   
   
