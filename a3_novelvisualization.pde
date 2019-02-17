@@ -26,7 +26,7 @@ void setup(){
  PFont[] fonts = {font1, font2, font3};
  
  //loading words and removing newlines chars
- String[] lines = loadStrings("uniquewords.txt");
+ String[] lines = loadStrings("uniqueWords.txt");
  for (int i = 0; i < lines.length; i++) {
    lines[i] = lines[i].replace("\n", "");
  }
