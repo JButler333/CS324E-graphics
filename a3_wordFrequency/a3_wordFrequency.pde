@@ -16,7 +16,7 @@ void setup(){
   background(0);
   noStroke();
   noLoop();
-  lines = loadStrings("wordFrequency.txt");
+  lines = loadStrings("../wordFrequency.txt");
 }
 
 //Gets the angles in degrees of each frequency's frequency
