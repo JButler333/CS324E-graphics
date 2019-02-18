@@ -7,4 +7,4 @@ wordFrequency pde script:
 open file in processing and press play.
 
 novelVisualization pde script: 
-open file in processing and press play.
+ensure .TTF files are within PDE folder, open file in processing and press play.
