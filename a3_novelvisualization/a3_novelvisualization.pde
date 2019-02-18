@@ -20,9 +20,9 @@ void setup(){
  //printArray(fontlist);
  
  //getting font data
- font1 = createFont("Century Schoolbook L Bold", fontSize);
- font2 = createFont("SansSerif.bold", fontSize);
- font3 = createFont("Liberation Sans Narrow", fontSize);
+ font1 = createFont("HARNGTON.TTF", fontSize);
+ font2 = createFont("BROADW.TTF", fontSize);
+ font3 = createFont("HTOWERT.TTF", fontSize);
  PFont[] fonts = {font1, font2, font3};
  
  //loading words and removing newlines chars
