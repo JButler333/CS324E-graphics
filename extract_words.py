@@ -34,7 +34,7 @@ for item in wordDict:
 
 #run through frequency dictuonary to append the word frequencies to print to file
 frequency = ""
-for item in freqDict:
+for item in sorted(freqDict):
 	frequency = frequency + str(item) + ": " + str(freqDict[item]) + "\n"
 
 #print string to respective text files
