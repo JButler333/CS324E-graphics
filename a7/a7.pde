@@ -8,7 +8,15 @@ void setup() {
 
 void draw() {
   background(255);
-  board.display();
+  if (board.win){
+    winScreen.display();
+  }
+  else if (board.lose){
+    loseScreen.display();
+  }
+  else{
+    board.display();
+  }
 }
 
 
