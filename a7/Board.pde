@@ -27,6 +27,7 @@ class Board {
         }
       }
     }
+    display();
   }
   
   void down() {
@@ -44,6 +45,7 @@ class Board {
         }
       }
     }
+    display();
   }
   
   void right() {
@@ -61,6 +63,7 @@ class Board {
         }
       }
     }
+    display();
   }
   
   
@@ -79,6 +82,7 @@ class Board {
         }
       }
     }
+    display();
   } 
   
   
@@ -105,7 +109,7 @@ class Board {
   }
   
   void merge(Block del, int x1, int y1, Block add, int x2, int y2) {
-    gameBoard[x1][y1].value = 2;
+    gameBoard[x1][y1].value = (1 +int(random(2))) * 2;
     unusedBlocks.add(gameBoard[x1][y1]);
     gameBoard[x1][y1] = null;
     gameBoard[x2][y2].value = gameBoard[x2][y2].value*2;
