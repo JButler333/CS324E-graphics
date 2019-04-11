@@ -7,16 +7,7 @@ void setup() {
 }
 
 void draw() {
-  background(255);
-  if (board.win){
-    winScreen.display();
-  }
-  else if (board.lose){
-    loseScreen.display();
-  }
-  else{
-    board.display();
-  }
+ board.display();
 }
 
 
